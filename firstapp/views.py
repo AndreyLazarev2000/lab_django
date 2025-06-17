@@ -11,8 +11,8 @@ def index(request):
         userform = UserForm()
         return render(request, 'index.html', {'form': userform})
 
-def index(request):
-    return HttpResponse("Первый проект на Django")
+# def index(request):
+#     return HttpResponse("Первый проект на Django")
 
 def about(request):
     return HttpResponse("<h2>О сайте</h2>")
