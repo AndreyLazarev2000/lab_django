@@ -246,6 +246,7 @@
                         {% endif %}
                     </div>
                 </div>
+
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="{{ form.education.id_for_label }}">{{ form.education.label }}</label>
@@ -275,8 +276,6 @@
                 {{ form.avatar }}
                 <small class="form-text text-muted">{{ form.avatar.help_text }}</small>
             </div>
-
-            <!-- ... остальные ваши поля ... -->
 
             <button type="submit" class="btn btn-primary mt-3">Отправить</button>
         </form>
